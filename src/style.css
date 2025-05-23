@@ -1,0 +1,54 @@
+:root {
+  margin: auto;
+  padding: auto;
+  font-family: "Zilla Slab", serif;
+  color: #FFFFFF;
+  background-color: #861109;
+}
+
+.headerCustom {
+  font-size: 1.7rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8rem;
+  text-decoration-line: Underline;
+}
+
+.headerCustom a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.tittle {
+  font-size: 5rem;
+}
+
+.subtittle {
+  font-size: 1.8rem;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  font-style: italic;
+}
+
+.text-content {
+  text-align: start;
+}
+
+img {
+  width: 20rem;
+  height: auto;
+  border-radius: 140px;
+  box-shadow: 14px 10px #0f0f0f8a;
+
+}
+.Informations button{
+  font-size: 1.2rem;
+  border-radius: 2rem;
+}
