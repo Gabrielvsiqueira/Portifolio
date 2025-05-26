@@ -38,17 +38,42 @@
 }
 
 .text-content {
-  text-align: start;
+  text-align: center;
 }
 
 img {
   width: 20rem;
   height: auto;
-  border-radius: 140px;
-  box-shadow: 14px 10px #0f0f0f8a;
-
+  border-radius: 100px;
+  box-shadow: 19px 10px #0f0f0f8a;
 }
-.Informations button{
-  font-size: 1.2rem;
-  border-radius: 2rem;
+
+.informations{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-weight: 600;
+}
+
+.buttons-information{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.icon-information {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.my-button {
+  font-size: 0.9rem;
+  font-weight: 590;
+  padding: 0.6rem 2rem;
+  border-radius: 0.8rem; 
+  border-color: #FFFFFF;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 14px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
 }
